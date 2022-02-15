@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - 4200:4200
+    volumes:
+      - node_modules:/usr/src/app/node_modules
+      - ./frontend:/usr/src/app
+
+volumes:
+    node_modules: null
