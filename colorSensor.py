@@ -6,6 +6,9 @@
     Pi SDA to sensor SDA
 '''
 
+# rer pip3 install adafruit-circuitpython-tcs34725
+
+
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
 
