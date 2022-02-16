@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MapComponent } from './map/map.component';
-import { RoomComponent } from './room/room.component';
+import { MapComponent } from './components/map/map.component';
+import { RoomComponent } from './components/room/room.component';
 
 const routes: Routes = [
   { path: 'map', component: MapComponent }
